@@ -1,0 +1,108 @@
+* {
+  user-select: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 8px;
+}
+
+.menu {
+  position: absolute;
+  top: 80px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 30px auto;
+  position: relative;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.menu img {
+  display: block;
+  width: 120px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.menu p {
+  margin: 8px;
+}
+
+
+.menu button {
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  width: 100px;
+  border: 2px solid rgb(45, 113, 45);
+  padding: 8px;
+  width: 120px;
+  margin: 20px;
+}
+
+.menu button:hover {
+  background-color: rgb(45, 153, 0);
+}
+
+.info {
+  width: 100%;
+}
+
+.info div {
+  padding: 10px 20px;
+  width: 200px;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.info td {
+  width: 25%;
+}
+
+.bird-small, .bird-medium, .bird-large {
+  position: absolute;
+}
+
+.bird-small {
+  width: 60px;
+}
+
+.bird-medium {
+  width: 80px;
+}
+
+.bird-large {
+  width: 100px;
+}
+
+.bomb {
+  height: 100px;
+}
+
+.explosion {
+  height: 500px; /* Diameter = area of influence * 2  */
+}
