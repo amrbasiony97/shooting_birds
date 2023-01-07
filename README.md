@@ -1,6 +1,8 @@
 # Shooting Birds Game
 
-**Shooting Birds** is a game which you shoot birds and bombs, you win when you score 50 points or higher.
+**Shooting Birds** is a game in which you shoot birds and bombs, you win when you score 50 points or higher.
+
+[Live Demo](https://amrbasiony97.github.io/shooting_birds/)
 
 ![Game Intro](doc/intro.png)
 
